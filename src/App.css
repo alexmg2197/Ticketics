@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&display=swap');
+
+:root {
+    --main-color-1: rgb(12, 36, 45);
+    --main-color-2: rgb(21, 53, 73);
+    --main-color-3: rgb(95, 132, 141);
+    --main-color-4: rgb(186, 201, 206);
+
+    /* --scroll-size: 12px;
+    --scroll-radius: 20px;
+    --scroll-track: rgb(186, 201, 206);
+    --scroll-thumb: linear-gradient(45deg,
+        rgb(255, 255, 255) 20%, transparent 20%,
+        transparent 40%, rgb(255, 255, 255) 40%,
+        rgb(255, 255, 255) 60%, transparent 60%,
+        transparent 80%, rgb(255, 255, 255) 80%);
+    --scroll-thumb-color: red; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--main-color-4);
+}
+
+/* body::-webkit-scrollbar {
+width: var(--scroll-size, 10px);
+height: var(--scroll-size, 10px);
+}
+body::-webkit-scrollbar-track {
+background-color: var(--scroll-track, transparent);
+border-radius: var(--scroll-track-radius, var(--scroll-radius));
+}
+body::-webkit-scrollbar-thumb {
+background-color: var(--scroll-thumb-color, grey);
+background-image: var(--scroll-thumb, none);
+border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
+} */
+
+p {
+    margin: 0;
+}
+
+.eti-err {
+    color: red;
+}
+
+.mark_wrong {
+    border-color: red;
+}
+
+.mark_wrong:focus {
+    /* background-color: red; */
+    border-color: red !important;
+    outline: none;
+    box-shadow: 0 1px 1px red inset, 0 0 8px red;
+}

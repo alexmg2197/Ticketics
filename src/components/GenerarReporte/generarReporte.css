@@ -1,0 +1,16 @@
+label {
+    font-weight: bold;
+}
+
+.cont-generar {
+    overflow-y: auto;
+}
+
+p {
+    font-weight: bold;
+}
+
+.fondo-GR {
+    background-color: var(--main-color-4);
+    min-height: 100vh;
+}

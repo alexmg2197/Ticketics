@@ -1,0 +1,22 @@
+.modulo {
+    width: 90%;
+    min-height: 250px;
+    background-color: var(--main-color-2);
+    color: var(--main-color-3);
+}
+
+.icon {
+    width: 10em;
+    height: 10em;
+    fill: var(--main-color-3);
+}
+
+.modulo-link {
+    text-decoration: none;
+    cursor: default;
+    color: var(--main-color-3);
+}
+
+.modulo-link:hover {
+    color: var(--main-color-3);
+}

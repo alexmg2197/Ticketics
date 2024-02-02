@@ -1,0 +1,23 @@
+.btn-g {
+    background-color: var(--main-color-1);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-g:hover {
+    background-color: var(--main-color-3);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cerrar {
+    background-color: var(--main-color-2);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cerrar:hover {
+    background-color: var(--main-color-3);
+    color: white;
+    font-weight: bold;
+}

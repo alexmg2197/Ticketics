@@ -1,0 +1,5 @@
+.fondo-CP {
+    background-color: var(--main-color-4);
+    height: 100vh;
+    overflow-y: hidden;
+}

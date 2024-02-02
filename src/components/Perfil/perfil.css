@@ -1,0 +1,20 @@
+.btn-guardar {
+    background-color: var(--main-color-1);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-guardar:hover {
+    background-color: var(--main-color-3);
+    color: white;
+    font-weight: bold;
+}
+
+.cont-perfil {
+    overflow-y: auto;
+}
+
+.fondo-perfil {
+    background-color: var(--main-color-4);
+    min-height: 100vh;
+}

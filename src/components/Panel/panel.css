@@ -1,0 +1,52 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+.fondo-p {
+    background-color: var(--main-color-4);
+    height: 100vh;
+}
+
+/* .ff{
+    height: 100%;
+} */
+
+.contI{
+    position: relative;
+}
+
+.search{
+    color: white;
+    background-color: #5F848D;  
+}
+
+.IS{
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-right: 30px;
+}
+
+.IS:focus{
+    border-bottom: 2px solid #1d444e;
+}
+
+.IS::placeholder{
+    color: white;
+}
+
+.lupa{
+    position: absolute;
+    top:8px;
+    right: 10px;
+}
+
+@media (min-height:1505px){
+    .fondo-p{
+        min-height: 100%;
+    }
+}
